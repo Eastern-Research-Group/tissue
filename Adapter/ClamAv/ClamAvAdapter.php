@@ -57,7 +57,7 @@ class ClamAvAdapter extends AbstractAdapter
      *
      * @return Process
      */
-    private function createProcess($path)
+    protected function createProcess($path)
     {
         $processArgs = [$this->clamScanPath, '--no-summary'];
         if ($this->usesDaemon($this->clamScanPath)) {
