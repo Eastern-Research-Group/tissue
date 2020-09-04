@@ -18,8 +18,8 @@
   ],
   "require": {
     "php": "^7.3.11",
-    "symfony/options-resolver": "^5.1.*",
-    "symfony/process": "^5.1.*"
+    "symfony/options-resolver": "5.1.*",
+    "symfony/process": "5.1.*"
   },
   "autoload": {
     "psr-4": {
